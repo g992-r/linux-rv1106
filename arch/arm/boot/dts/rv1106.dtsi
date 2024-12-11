@@ -1052,7 +1052,7 @@
 		clocks = <&cru SCLK_UART5>, <&cru PCLK_UART5>;
 		clock-names = "baudclk", "apb_pclk";
 		pinctrl-names = "default";
-		pinctrl-0 = <&uart5m0_xfer &uart5m0_ctsn &uart5m0_rtsn>;
+		pinctrl-0 = <&uart5m2_xfer>;
 		status = "disabled";
 	};
 
